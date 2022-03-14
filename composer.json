@@ -1,0 +1,21 @@
+{
+  "name": "dahaupt/rector-annotation-import",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Haupt",
+      "email": "mail@danielhaupt.de"
+    }
+  ],
+  "require": {
+    "typo3/cms-extbase": "^11.5",
+    "rector/rector": "^0.12.17"
+  },
+  "config": {
+    "allow-plugins": {
+      "typo3/class-alias-loader": true,
+      "typo3/cms-composer-installers": true
+    }
+  }
+}
